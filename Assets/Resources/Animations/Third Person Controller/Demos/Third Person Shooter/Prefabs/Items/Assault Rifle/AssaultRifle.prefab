@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459878}
+  m_Layer: 2
+  m_Name: Fire Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401008}
+  m_Layer: 2
+  m_Name: Smoke Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &163830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412734}
+  - 33: {fileID: 3348894}
+  - 23: {fileID: 2350150}
+  - 114: {fileID: 11469296}
+  - 82: {fileID: 8257470}
+  - 65: {fileID: 6599868}
+  - 54: {fileID: 5411692}
+  m_Layer: 2
+  m_Name: AssaultRifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &178652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 447544}
+  m_Layer: 2
+  m_Name: Muzzle Flash Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417354}
+  m_Layer: 2
+  m_Name: Shell Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0000007170899, y: 0.121343106, z: -0.8140346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412734}
+  m_RootOrder: 1
+--- !u!4 &412734
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_LocalRotation: {x: -0.68219256, y: -0.008984604, z: -0.727549, w: -0.072145954}
+  m_LocalPosition: {x: -0.087, y: 0.013, z: 0.056}
+  m_LocalScale: {x: 0.9999999, y: 0.99999857, z: 0.99999887}
+  m_Children:
+  - {fileID: 459878}
+  - {fileID: 401008}
+  - {fileID: 447544}
+  - {fileID: 417354}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &417354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.052869298, y: 0.023177596, z: -0.18685769}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412734}
+  m_RootOrder: 3
+--- !u!4 &447544
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00038055662, y: 0.13467883, z: -0.83404046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412734}
+  m_RootOrder: 2
+--- !u!4 &459878
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121414}
+  m_LocalRotation: {x: 0.7071069, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0.012498674, y: 0.120989345, z: -0.83079225}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 412734}
+  m_RootOrder: 0
+--- !u!23 &2350150
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7309b45eef49ac54d86b6976f105fdd1, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3348894
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_Mesh: {fileID: 4300002, guid: f8bb302270bd99440b52db6e5be9bc60, type: 3}
+--- !u!54 &5411692
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &6599868
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06818252, y: 0.28884923, z: 1.1328212}
+  m_Center: {x: -0.0000011143948, y: 0.03524042, z: -0.24211095}
+--- !u!82 &8257470
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11469296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622ebe3b28e45424f9003e0e901af2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemType: {fileID: 11400000, guid: f7a7ff59e6f44ed41b780028c7e443f3, type: 2}
+  m_ItemName: Assault Rifle
+  m_DefaultStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Movement
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 13
+          m_IgnoreLowerPriority: 0
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Movement
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 13
+          m_IgnoreLowerPriority: 0
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities:
+    - m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Movement
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 12
+          m_IgnoreLowerPriority: 0
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+      m_Ability: {fileID: 0}
+  m_AimStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Aim
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Aim
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities: []
+  m_EquipStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Equip
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Equip
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities: []
+  m_UnequipStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Unequip
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Unequip
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities: []
+  m_CanAim: 1
+  m_RequireAim: 1
+  m_ItemSprite: {fileID: 21300090, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+  m_RightItemSprite: 1
+  m_CrosshairsSprite:
+    m_Center: {fileID: 21300056, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+    m_Offset: 5
+    m_Left: {fileID: 21300064, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+    m_Top: {fileID: 21300058, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+    m_Right: {fileID: 21300062, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+    m_Bottom: {fileID: 21300060, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+    m_AccuracyLossPercent: 2
+  m_TwoHandedItem: 1
+  m_HolsterTarget: {fileID: 0}
+  m_ItemPickup: {fileID: 100000, guid: 70c0a3f8e11cd2944a3171e32cbf1c28, type: 2}
+  m_UseStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Attack
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Attack
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities: []
+  m_CanUseInAir: 1
+  m_ReloadStates:
+    m_Idle:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Reload
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Movement:
+      m_Groups:
+      - m_StateOrder: 0
+        m_ComboTimeout: 0
+        m_States:
+        - m_Name: Reload
+          m_TransitionDuration: 0.1
+          m_SpeedMultiplier: 1
+          m_CanReplay: 0
+          m_ItemNamePrefix: 1
+          m_Layer: 2
+          m_IgnoreLowerPriority: 1
+          m_ForceRootMotion: 0
+      m_GroupOrder: 0
+    m_Abilities: []
+  m_FirePoint: {fileID: 459878}
+  m_FireMode: 1
+  m_FireRate: 10
+  m_BurstRate: 5
+  m_FireRange: Infinity
+  m_ClipSize: 50
+  m_FireCount: 1
+  m_FireType: 0
+  m_FireOnUsedEvent: 0
+  m_WaitForEndUseEvent: 0
+  m_UseScope: 0
+  m_AutoReload: 1
+  m_RecoilAmount: 0.03
+  m_Spread: 0.01
+  m_RegenerateRate: 0
+  m_RegenerateAmount: 0
+  m_IdleAnimationStateName: 
+  m_FireAnimationStateName: 
+  m_ReloadAnimationStateName: 
+  m_Shell: {fileID: 100000, guid: 2794fdea5c9fd6c4a89e3ffc3f45fa6f, type: 2}
+  m_ShellLocation: {fileID: 417354}
+  m_ShellForce: {x: 0, y: 0, z: 0}
+  m_ShellTorque: {x: 0, y: 0, z: 0}
+  m_MuzzleFlash: {fileID: 100000, guid: 2dd45cba069fb3340a0792f5eb7362c7, type: 2}
+  m_MuzzleFlashLocation: {fileID: 447544}
+  m_Smoke: {fileID: 100000, guid: 20e8c1c3975b5424988b8d3999108fe3, type: 2}
+  m_SmokeLocation: {fileID: 401008}
+  m_Particles: {fileID: 0}
+  m_FireSound:
+  - {fileID: 8300000, guid: 27e93e472274f7e4aa82c54dfd05bd35, type: 3}
+  m_FireSoundDelay: 0
+  m_EmptyFireSound:
+  - {fileID: 8300000, guid: 57e01c3aba014b14298b1796dbd2044b, type: 3}
+  m_ReloadSound: []
+  m_Projectile: {fileID: 0}
+  m_ProjectileAlwaysVisible: 0
+  m_ProjectileRestLocation: {fileID: 0}
+  m_ProjectileRestParent: {fileID: 0}
+  m_HitscanImpactLayers:
+    serializedVersion: 2
+    m_Bits: 2147483625
+  m_HitscanDamageEvent: 
+  m_HitscanDamageAmount: 7
+  m_HitscanImpactForce: 0.1
+  m_DefaultHitscanDecal: {fileID: 100000, guid: 9b7a72265f46eef41ab48a568d6502a9,
+    type: 2}
+  m_DefaultHitscanDust: {fileID: 100000, guid: f3ed2988ed047264e8ec6e6b585ea14a, type: 2}
+  m_DefaultHitscanSpark: {fileID: 100000, guid: abb9cdac57d76d840badde8d36473ddc,
+    type: 2}
+  m_DefaultHitscanImpactSound: {fileID: 0}
+  m_Tracer: {fileID: 0}
+  m_TracerLocation: {fileID: 0}
+  m_Overheat: 0
+  m_OverheatShotCount: 0
+  m_CooldownDuration: 0
+  m_Flashlight: {fileID: 0}
+  m_ActivateFlashlightOnAim: 0
+  m_LaserSight: {fileID: 0}
+  m_ActivateLaserSightOnAim: 0
+  m_DisableCrosshairsWhenLaserSightActive: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 163830}
+  m_IsPrefabParent: 1
